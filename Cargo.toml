@@ -18,7 +18,7 @@ lto = true
 
 [dependencies]
 clap = "2.29"
-actix = "0.5"
-actix-web = "0.6"
+actix = { git = "https://github.com/redox-os/actix" }
+actix-web = { git = "https://github.com/redox-os/actix-web" }
 simplelog = "0.5"
 base64 = "0.9"
